@@ -9,6 +9,10 @@ spring:
     password: root
   application:
     name: Taobao-Order
+  redis:
+    host: 116.62.38.97
+    port: 63799
+    password: root
 
 mybatis:
   mapper-locations: classpath*:providerorder8003/*Mapper.xml
